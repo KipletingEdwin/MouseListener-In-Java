@@ -16,20 +16,11 @@ public class MyFrame extends JFrame implements MouseListener {
         label.setBounds(0,0,100,100);
         label.setBackground(Color.red);
         label.setOpaque(true);
-
-
+        label.addMouseListener(this);
 
         this.add(label);
-
-
-
-
-
-
         this.setVisible(true);
-
     }
-
     @Override
     public void mouseClicked(MouseEvent e) {
         //Invoked when the mouse has been clicked (pressed and released) on a component
