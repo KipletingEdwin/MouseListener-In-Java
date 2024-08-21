@@ -24,18 +24,21 @@ public class MyFrame extends JFrame implements MouseListener {
     @Override
     public void mouseClicked(MouseEvent e) {
         //Invoked when the mouse has been clicked (pressed and released) on a component
+         // System.out.println("You clicked the mouse");
 
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
         //Invoked when a mouse button has been pressed on a component
+        System.out.println("You pressed the mouse");
 
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
         //Invoked when a mouse button has been released on a component
+        System.out.println("You released the mouse");
 
     }
 
