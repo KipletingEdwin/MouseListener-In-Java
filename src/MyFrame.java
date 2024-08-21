@@ -14,6 +14,8 @@ public class MyFrame extends JFrame implements MouseListener {
 
         label = new JLabel();
         label.setBounds(0,0,100,100);
+        label.setBackground(Color.red);
+
 
         this.setVisible(true);
 
