@@ -19,6 +19,10 @@ public class MyFrame extends JFrame implements MouseListener {
 
 
 
+        this.add(label);
+
+
+
 
 
 
