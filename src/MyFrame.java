@@ -14,7 +14,7 @@ public class MyFrame extends JFrame implements MouseListener {
     MyFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(500,500);
-        this.setLayout(null);
+        this.setLayout(new FlowLayout());
 
         label = new JLabel();
         label.setBounds(0,0,100,100);
