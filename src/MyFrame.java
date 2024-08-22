@@ -15,6 +15,10 @@ public class MyFrame extends JFrame implements MouseListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(500,500);
         this.setLayout(new FlowLayout());
+
+        smile = new ImageIcon("smile.jpeg");
+        nervous = new ImageIcon("nervous.jpeg");
+
         this.pack();
         this.setLocationRelativeTo(null);
 
