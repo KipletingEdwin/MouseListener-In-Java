@@ -6,6 +6,10 @@ import java.awt.event.MouseListener;
 public class MyFrame extends JFrame implements MouseListener {
 
     JLabel label;
+    ImageIcon smile;
+    ImageIcon nervous;
+    ImageIcon pain;
+    ImageIcon dizzy;
 
     MyFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
