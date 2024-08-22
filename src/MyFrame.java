@@ -16,6 +16,7 @@ public class MyFrame extends JFrame implements MouseListener {
         this.setSize(500,500);
         this.setLayout(new FlowLayout());
         this.pack();
+        this.setLocationRelativeTo(null);
 
         label = new JLabel();
         label.setBounds(0,0,100,100);
