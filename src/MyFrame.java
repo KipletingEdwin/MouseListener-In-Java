@@ -49,8 +49,9 @@ public class MyFrame extends JFrame implements MouseListener {
     @Override
     public void mousePressed(MouseEvent e) {
         //Invoked when a mouse button has been pressed on a component
-        System.out.println("You pressed the mouse");
-        label.setBackground(Color.yellow);
+        //System.out.println("You pressed the mouse");
+        //label.setBackground(Color.yellow);
+        label.setIcon(pain);
 
     }
 
@@ -65,8 +66,8 @@ public class MyFrame extends JFrame implements MouseListener {
     @Override
     public void mouseEntered(MouseEvent e) {
         //Invoked when the mouse enters a component
-        System.out.println("You entered the mouse");
-        label.setBackground(Color.blue);
+        //System.out.println("You entered the mouse");
+        //label.setBackground(Color.blue);
         label.setIcon(nervous);
 
     }
@@ -74,8 +75,9 @@ public class MyFrame extends JFrame implements MouseListener {
     @Override
     public void mouseExited(MouseEvent e) {
         //Invoked when the mouse exits a component
-        System.out.println("You exited the component");
-        label.setBackground(Color.red);
+        //System.out.println("You exited the component");
+        //label.setBackground(Color.red);
+        label.setIcon(smile);
 
     }
 }
