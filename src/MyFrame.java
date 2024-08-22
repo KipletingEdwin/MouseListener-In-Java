@@ -17,6 +17,7 @@ public class MyFrame extends JFrame implements MouseListener {
         this.setLayout(new FlowLayout());
 
         label = new JLabel();
+        label.addMouseListener(this);
 
         smile = new ImageIcon("smile.jpeg");
         nervous = new ImageIcon("nervous.jpeg");
