@@ -32,6 +32,7 @@ public class MyFrame extends JFrame implements MouseListener {
     public void mousePressed(MouseEvent e) {
         //Invoked when a mouse button has been pressed on a component
         System.out.println("You pressed the mouse");
+        label.setBackground(Color.yellow);
 
     }
 
@@ -45,12 +46,14 @@ public class MyFrame extends JFrame implements MouseListener {
     @Override
     public void mouseEntered(MouseEvent e) {
         //Invoked when the mouse enters a component
+        System.out.println("You entered the mouse");
 
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
         //Invoked when the mouse exits a component
+        System.out.println("You exited the component");
 
     }
 }
