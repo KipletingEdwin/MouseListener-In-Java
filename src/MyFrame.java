@@ -25,7 +25,7 @@ public class MyFrame extends JFrame implements MouseListener {
 
         label.setIcon(dizzy);
 
-
+        this.add(label);
         this.pack();
         this.setLocationRelativeTo(null);
 
