@@ -40,6 +40,7 @@ public class MyFrame extends JFrame implements MouseListener {
     public void mouseReleased(MouseEvent e) {
         //Invoked when a mouse button has been released on a component
         System.out.println("You released the mouse");
+        label.setBackground(Color.green);
 
     }
 
