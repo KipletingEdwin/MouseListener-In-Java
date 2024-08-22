@@ -16,10 +16,15 @@ public class MyFrame extends JFrame implements MouseListener {
         this.setSize(500,500);
         this.setLayout(new FlowLayout());
 
+        label = new JLabel();
+
         smile = new ImageIcon("smile.jpeg");
         nervous = new ImageIcon("nervous.jpeg");
         pain = new ImageIcon("pain.jpeg");
         dizzy = new ImageIcon("dizzy.jpeg");
+
+        label.setIcon(dizzy);
+
 
         this.pack();
         this.setLocationRelativeTo(null);
