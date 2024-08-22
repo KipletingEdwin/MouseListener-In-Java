@@ -19,6 +19,7 @@ public class MyFrame extends JFrame implements MouseListener {
         smile = new ImageIcon("smile.jpeg");
         nervous = new ImageIcon("nervous.jpeg");
         pain = new ImageIcon("pain.jpeg");
+        dizzy = new ImageIcon("dizzy.jpeg");
 
         this.pack();
         this.setLocationRelativeTo(null);
