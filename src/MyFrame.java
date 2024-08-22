@@ -67,6 +67,7 @@ public class MyFrame extends JFrame implements MouseListener {
         //Invoked when the mouse enters a component
         System.out.println("You entered the mouse");
         label.setBackground(Color.blue);
+        label.setIcon(nervous);
 
     }
 
