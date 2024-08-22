@@ -56,6 +56,7 @@ public class MyFrame extends JFrame implements MouseListener {
     public void mouseExited(MouseEvent e) {
         //Invoked when the mouse exits a component
         System.out.println("You exited the component");
+        label.setBackground(Color.red);
 
     }
 }
